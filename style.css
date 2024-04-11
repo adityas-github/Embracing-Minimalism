@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+:root {
+  --bg-card: #ffffff;
+  --color-title: #20293a;
+  --color-description: #6c727f;
+  --color-autor: #e5eaf0;
+  --bg-cat: #e6d6fc;
+  --text-cat: #883ae1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafaf9;
+  font-family: "Sora";
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 368px;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.199);
+  border-radius: 15px;
+}
+.card_body {
+  margin: 16px;
+  overflow: hidden;
+}
+.img_card {
+  width: 338px;
+  height: 152px;
+  margin: 0;
+  padding: 0;
+}
+.category {
+  display: inline-block;
+  background-color: #e6d6fc;
+  margin: 16px 0;
+  padding: 6px 16px;
+  border-radius: 100px;
+}
+
+.category p {
+  font-size: 0.625rem;
+  font-weight: bold;
+  color: #883ae1;
+}
+.title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #20293a;
+  margin-bottom: 6px;
+}
+.description {
+  font-size: 0.875rem;
+  color:  #6c727f;
+  margin-bottom: 4px;
+}
+.card_footer {
+  border-top: 1px solid #e5eafc;
+}
+.name_autor {
+  padding: 20px 16px;
+  font-size: 0.75rem;
+  color:  #6c727f;
+}
